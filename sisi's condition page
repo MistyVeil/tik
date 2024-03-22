@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sisi's Condition</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('tree-736885_960_720.jpg'); /* Background image */
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        .container {
+            background-color: rgba(255, 255, 255, 0.8); /* Background color with opacity */
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+            max-width: 600px;
+        }
+        .profile-img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+        }
+        .condition {
+            font-size: 14px;
+            color: #555;
+            margin-top: 10px;
+        }
+        .condition a {
+            color: blue; /* Change link color */
+            text-decoration: underline; /* Underline link */
+        }
+        .corner-button {
+            position: fixed;
+            bottom: 20px;
+            left: 20px;
+            background-color: #DE40C4;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .corner-button:hover {
+            background-color: #C539B6; /* Darker shade on hover */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="me condition.jpeg" alt="Your Picture" class="profile-img">
+        <p><strong>Sisi's Condition</strong></p>
+        <p>It's not good. <a href="link_to_sisi_condition.html">Learn more</a>.</p>
+    </div>
+    <a href="link_to_sisi_condition.html" class="corner-button">Sisi's Condition</a>
+</body>
+</html>

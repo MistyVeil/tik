@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            height: 100vh;
+            background-image: url("tree-736885_960_720.jpg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+        }
+
+        .container {
+            padding: 16px;
+            background-color: rgba(255, 255, 255, 0.7); /* Added background color with opacity */
+        }
+
+        input[type=text],
+        input[type=password],
+		input[type=tel],
+		input[type=address]
+		{
+            width: 100%;
+            padding: 15px;
+            margin: 5px 0 22px 0;
+            display: inline-block;
+            border: none;
+            background: #f1f1f1;
+        }
+
+        input[type=text]:focus,
+        input[type=password]:focus {
+            background-color: #ddd;
+            outline: none;
+        }
+
+        hr {
+            border: 1px solid #f1f1f1;
+            margin-bottom: 25px;
+        }
+
+        .registerbtn {
+            background-color: #DE40C4;
+            color: white;
+            padding: 16px 20px;
+            margin: 8px 0;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+            opacity: 0.9;
+        }
+
+        .registerbtn:hover {
+            opacity: 1;
+        }
+
+        a {
+            color: dodgerblue;
+        }
+
+        .signin {
+            background-color: #f1f1f1;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <form method="post" action="hal awal.html" onsubmit="return validasi()">
+        <div class="container">
+            <h1>Register</h1>
+            <p>Tolong isi form ini untuk membuat akun.</p>
+            <hr>
+
+            <label for="email"><b>Email</b></label>
+            <input type="text" placeholder="Masukkan Email" name="email" id="email" required>
+
+            <label for="pwd"><b>Password</b></label>
+            <input type="password" placeholder="Masukkan Password" name="pwd" id="pwd" required>
+
+            <label for="psw-repeat"><b>Ulangi Password</b></label>
+            <input type="password" placeholder="Ulangi Password" name="psw-repeat" id="psw-repeat" required>
+            <hr>
+
+			<label for="birthdate">Tanggal Lahir:</label>
+            <input type="date" id="birthdate" name="birthdate" required>
+			
+            <label>Jenis Kelamin:</label>
+            <input type="radio" id="male" name="gender" value="male" required>
+            <label for="male">Laki-laki</label>
+            <input type="radio" id="female" name="gender" value="female" required>
+            <label for="female">Perempuan</label>
+            <label for="address">Alamat:</label>
+            <textarea id="address" name="address" required></textarea>
+            <label for="profile_pic">Upload Foto Profil:</label>
+            <input type="file" id="profile_pic" name="profile_pic" required>
+            <label for="phone">Nomor Telepon:</label>
+            <input type="tel" id="phone" name="phone" pattern="[0-9]+" required>
+
+            <p>Dengan membuat akun, Anda menyetujui <a href="#">Syarat & Privasi.</a>.</p>
+            <button type="submit" class="registerbtn">Register</button>
+			
+        </div>
+
+        <div class="container signin">
+            <p>Sudah memiliki akun? <a href="Log In TIK.html">Log in</a>.</p>
+        </div>
+		<script src="jvsc.js"></script>
+    </form>
+</body>
+
+</html>

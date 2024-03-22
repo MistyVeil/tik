@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Hal Awal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-image: url('tree-736885_960_720.jpg'); /* Background image */
+            background-size: cover;
+            background-position: center;
+            color: white; /* Set text color to white for better visibility */
+        }
+
+        .header {
+            background: rgba(0, 0, 0, 0.5); /* Semi-transparent black background for better text readability */
+            padding: 20px;
+            text-align: center;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-around;
+            background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent black background for better text readability */
+            padding: 10px;
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .navbar a.active {
+            background-color: #4caf50;
+            color: white;
+            padding: 8px 16px;
+            border-radius: 5px;
+        }
+
+        .row {
+            display: flex;
+        }
+
+        .side {
+            flex: 30%;
+            padding: 15px;
+        }
+
+        .main {
+            flex: 70%;
+            padding: 15px;
+        }
+
+        .footer {
+            background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background for better text readability */
+            padding: 10px;
+            text-align: center;
+        }
+
+        .fakeimg {
+            background-color: #aaa;
+            width: 100%;
+            padding: 20px;
+        }
+
+        .profile-button {
+            background-color: #4caf50; /* Green */
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .profile-button:hover {
+            background-color: #45a049; /* Darker Green */
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="header">
+    <h1>Social Media</h1>
+</div>
+
+<div class="navbar">
+    <a href="#" class="active">Home</a>
+    <a href="#">Dokumentasi</a>
+    <a href="#">Profil Anggota</a>
+</div>
+
+<div class="row">
+    <div class="side">
+        <h2>About Me</h2>
+        <h5>Photo of me:</h5>
+        <div class="fakeimg" style="height:200px;">Image</div>
+        <!-- Button to access profile page -->
+        <a href="profile page.html" class="profile-button">Go to Profile</a>
+    </div>
+
+    <div class="main">
+        <h2>TITLE HEADING</h2>
+        <h5>Title description, Dec 7, 2020</h5>
+        <div class="fakeimg" style="height:200px;">Image</div>
+    </div>
+</div>
+
+<div class="footer">
+    <h2>Envy cannot be separated from comparing yourself, without comparing there is no envy</h2>
+</div>
+
+</body>
+
+</html>

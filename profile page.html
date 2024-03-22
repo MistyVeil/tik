@@ -13,10 +13,11 @@
             background-position: center;
             margin: 0;
             padding: 0;
+            height: 100vh;
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 100vh;
+            position: relative;
         }
         .profile {
             background-color: rgba(255, 255, 255, 0.8); /* Background color with opacity */
@@ -35,6 +36,9 @@
             margin: 5px 0;
         }
         .corner-button {
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
             background-color: #DE40C4;
             color: white;
             padding: 10px 20px;
@@ -48,9 +52,6 @@
         .corner-button a {
             color: white; /* Button text color */
             text-decoration: none; /* Remove underline */
-            display: block; /* Make button full width */
-            width: 100%; /* Make button full width */
-            height: 100%; /* Make button full height */
         }
     </style>
 </head>
@@ -68,4 +69,3 @@
     </div>
 </body>
 </html>
-
